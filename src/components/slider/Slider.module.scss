@@ -1,0 +1,23 @@
+
+.slider_parent {
+  position: relative;
+  width: 100%;
+  height: 67vh;
+  &_block {
+    position: relative;
+    height: 60vh;
+    .slider_item {
+      width: 100%;
+      height: 700px;
+      cursor: pointer;
+      position: absolute;
+      opacity: 0;
+      transition: .5s;
+    }
+
+    .activeSlider {
+      opacity: 1;
+    }
+  }
+}
+

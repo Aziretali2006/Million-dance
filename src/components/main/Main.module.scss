@@ -1,0 +1,154 @@
+
+.banner_parents {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  &_block {
+    p{
+      font-size: 30px;
+      font-weight: 400;
+      margin-top: 50px;
+    }
+    h2 {
+      font-size: 50px;
+      margin-top: 180px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 150px;
+      text-transform: uppercase;
+      font-weight: 1200;
+    }
+    &_gif {
+      background: url("https://i.gifer.com/origin/58/583b923b140aac2ffbdac007052f3d40_w200.gif") center / cover;
+      width: 500px;
+      height: 500px;
+      font-size: 40px;
+      position: absolute;
+      border: 0;
+      left: 60%;
+      top: 100%;
+      color: white;
+
+    }
+    button {
+      padding: 20px ;
+      border: 0;
+      background: none;
+      border-bottom: 2px solid white;
+      color: white;
+      font-size: 25px;
+      box-shadow: 0 0 10px white;
+      font-weight: 500;
+      text-transform:capitalize;
+      cursor: pointer;
+      transition: 1s;
+      &:hover {
+        background-color: rgb(4, 161, 4);
+        color: white;
+      }
+    }
+  }
+}
+
+.information {
+  display: flex;
+  align-items: center;
+
+  &_teacher {
+    width: 50%;
+    height: 70vh;
+    border: 2px solid white;
+    background: url("https://www.stcbarbershop.com/wp-content/uploads/2017/12/The-6-Different-Types-Of-Face-Shapes.jpg") center / cover;
+
+    div {
+      text-align: center;
+      margin-top: 35vh;
+      p {
+        font-size: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: white;
+      } 
+      button {
+        padding: 20px;
+        border: 0;
+        background: none;
+        border-bottom: 2px solid white;
+        color: white;
+        font-size: 30px;
+        text-transform: uppercase;
+        transition: .5s;
+        cursor: pointer;
+        &:hover {
+          border-bottom: 2px solid black;
+          color: black;
+        }
+      }
+    }
+  }
+
+  &_schedule {
+    position: relative;
+    width: 50%;
+    height: 70vh;
+    border: 2px solid white;
+    background: url("https://www.union.edu/sites/default/files/union-marketing-layer/202211/dance2022004.jpg") center / cover;
+
+    div {
+      text-align: center;
+      margin-top: 35vh;
+      p {
+        font-size: 40px;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: black;
+      } 
+      button {
+        padding: 20px;
+        border: 0;
+        background: none;
+        border-bottom: 2px solid black;
+        color: black;
+        font-size: 30px;
+        text-transform: uppercase;
+        transition: .5s;
+        cursor: pointer;
+        &:hover {
+          border-bottom: 2px solid white;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.followUS {
+  background-color: rgb(203, 34, 34);
+  width: 100%;
+  padding: 20px 0;
+  p {
+    text-align: center;
+    font-size: 35px ;
+  }
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  &_item {
+    width: 70%;
+    height: 40vh;
+    border: 2px solid white;
+    cursor: pointer;
+    p {
+      color: white;
+      text-align: center;
+      padding-top: 15vh ;
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+
+
+.register_page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+
+  &_card {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 10px white;
+
+    h2 {
+      margin-top: 40px;
+      font-size: 27px;
+    }
+
+    a {
+      font-size: 20px;
+    }
+  }
+}

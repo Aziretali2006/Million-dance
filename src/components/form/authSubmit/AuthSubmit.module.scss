@@ -1,0 +1,16 @@
+
+.auth_submit {
+  width: 200px;
+  margin-top: 10px;
+  padding: 15px;
+  background: none;
+  font-size: 15px;
+  box-shadow: 0 0 10px black;
+  cursor: pointer;
+  transition: .5s;
+  margin-bottom: 0;
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
